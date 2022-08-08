@@ -1,0 +1,15 @@
+Memoization = top-down approach
+Tabulation = bottom-up approach
+
+to write recurrence of DP problems:
+1) try to represent the problem in terms of index.
+2) do all possible stuffs on that index according to the problem statement.
+3) if question says: count all the ways -> sum of all stuffs
+                     find min -> min of all stuffs.
+                     find max -> max of all stuffs.
+
+convert recurrence to DP
+1) declare array dp[n+1]
+2) before returning store the value and then return it ex.-> return dp[index] = min(left, right)
+3) check if its previously computed or not. If yes then return it ex.-> if(dp[index] != -1) return dp[index].
+				                            If no then continue. 		 
