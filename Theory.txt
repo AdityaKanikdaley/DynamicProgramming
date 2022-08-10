@@ -12,4 +12,4 @@ convert recurrence to DP
 1) declare array dp[n+1]
 2) before returning store the value and then return it ex.-> return dp[index] = min(left, right)
 3) check if its previously computed or not. If yes then return it ex.-> if(dp[index] != -1) return dp[index].
-				                            If no then continue. 		 
+				                            If no then continue.
