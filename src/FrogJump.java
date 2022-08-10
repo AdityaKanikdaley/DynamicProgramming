@@ -28,7 +28,7 @@ class Recursion_FrogJump {
 
 class Memoization_FrogJump {
     // tc: O(N)
-    // sc: O(N) + O(N) = O(N)
+    // sc: O(N) + O(N)
     public static void main(String[] args) {
         int[] heights = {30, 10, 60, 10, 60, 50};
         int n = heights.length;

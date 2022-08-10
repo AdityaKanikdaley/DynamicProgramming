@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-class Exponential_Fibonacci {
+class Recursion_Fibonacci {
     // tc: O(2^N)
     // sc: O(N) - recursive call stack
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ class Exponential_Fibonacci {
 
 class Memoization_Fibonacci {
     // tc: O(N)
-    // sc: O(N) + O(N) == O(N)
+    // sc: O(N) + O(N)
     public static void main(String[] args) {
         int n = 7;
         int[] dp = new int[n + 1];
