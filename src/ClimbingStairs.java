@@ -37,7 +37,7 @@ class Tabulation_ClimbingStairs_SpaceOptimized {
     }
 
     private static int solve(int n) {
-        int prev2i = 0, previ = 1;
+        int prev2i = 1, previ = 1;
         for (int i = 2; i <= n; i++) {
             int curi = previ + prev2i;
             prev2i = previ;

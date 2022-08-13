@@ -63,6 +63,10 @@ class Tabulation_Fibonacci_SpaceOptimized {
     }
 
     private static int solve(int n) {
+
+        // edge case
+        if(n <= 1) return n;
+
         int prev2i = 0, previ = 1;
         for (int i = 2; i <= n; i++) {
             int curi = previ + prev2i;
