@@ -72,7 +72,7 @@ class Tabulation_FrogJump {
             int firstStep = dp[i - 1] + Math.abs(heights[i] - heights[i - 1]);
             int secondStep = Integer.MAX_VALUE;
             if (i > 1)
-                secondStep = dp[i - 2] + Math.abs(heights[i] = heights[i - 2]);
+                secondStep = dp[i - 2] + Math.abs(heights[i] - heights[i - 2]);
 
             dp[i] = Math.min(firstStep, secondStep);
         }
